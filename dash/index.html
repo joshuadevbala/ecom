@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin Dashboard | Redesign</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="finger-print-outline"></ion-icon></span>
+                            <span class="title">SigmaT Consultancy</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="ticket-outline"></ion-icon></span>
+                            <span class="title">Tickets</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+                            <span class="title">Users</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                            <span class="title">Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="log-in-outline"></ion-icon></span>
+                            <span class="title">Sign Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- main -->
+            <div class="main">
+                <div class="topbar">
+                    <div class="toggle">
+                        <ion-icon name="grid-outline"></ion-icon>
+                    </div>
+                    <!--search-->
+                    <div class="search">
+                        <label>
+                            <input type="text" placeholder="Search here">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </label>
+                    </div>
+                    <!--userImg-->
+                    <div class="user">
+                        <img src="user.jpg">
+                    </div>
+                </div>
+
+
+                <!--cards-->
+                <div class="cardBox">
+                    <div class="card">
+                        <div>
+                            <div class="numbers">1,250</div>
+                            <div class="cardName">Daily Views</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">80</div>
+                            <div class="cardName">Solved</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="mail-open-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">123</div>
+                            <div class="cardName">Tickets</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="ticket-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">43</div>
+                            <div class="cardName">Not Solved</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="details">
+         <!--ticket details list-->
+                    <div class="recentTickets">
+                        <div class="cardHeader">
+                            <h2>Recent Tickets</h2>
+                            <a href="#" class="'btn">View All</a>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>User Name</td>
+                                    <td>Support Team</td>
+                                    <td>Complaint Details</td>
+                                    <td>Status</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Micheal</td>
+                                    <td>Jonathan</td>
+                                    <td>Network Issue</td>
+                                    <td><span class="status inprogress">In Progress</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Siva</td>
+                                    <td>Mohanraj</td>
+                                    <td>Tools are not working</td>
+                                    <td><span class="status pending">pending</span></td>
+                                    </tr>
+                                     <tr>
+                                    <td>Ramki</td>
+                                    <td>Mohamed Aarif</td>
+                                    <td>Troubleshoot</td>
+                                    <td><span class="status deliverd">deliverd</span></td>
+                                    </tr>
+                                    <tr>
+                                    <td>Vaishalini</td>
+                                    <td>Gowthaman</td>
+                                    <td>Software updation</td>
+                                    <td><span class="status inprogress">In Progress</span></td>
+                                    </tr>
+                                    <tr>
+                                    <td>Priya</td>
+                                    <td>Vijay Kumar</td>
+                                    <td>Netowork is not connected</td>
+                                    <td><span class="status deliverd">deliverd</span></td>
+                                    </tr>
+                                    <tr>
+                                    <td>Sundaram</td>
+                                    <td>Gopalan</td>
+                                    <td>Required extra Ram</td>
+                                    <td><span class="status pending">pending</span></td>
+                                    </tr>
+                                    <tr>
+                                    <td>ABC</td>
+                                    <td>Hema</td>
+                                    <td>Mailer part is not working</td>
+                                    <td><span class="status inprogress">In Progress</span></td>
+                                    </tr>
+                                    <tr>
+                                    <td>Preethi</td>
+                                    <td>Deva</td>
+                                    <td>Server is not connected</td>
+                                    <td><span class="status pending">pending</span></td>
+                                    </tr>
+                                    <tr>
+                                    <td>Hema Nandhini</td>
+                                    <td>Manjula</td>
+                                    <td>Need Mouse bluetooth device</td>
+                                    <td><span class="status inprogress">In Progress</span></td>
+                                    </tr>
+                                    <tr>
+                                    <td>Rosalin Pooja</td>
+                                    <td>Joshua</td>
+                                    <td>Boting Failure</td>
+                                    <td><span class="status deliverd">deliverd</span></td>
+                                    </tr>
+                                    <tr>
+                                    <td>Suriya</td>
+                                    <td>Indhumathi</td>
+                                    <td>windows is not running </td>
+                                    <td><span class="status deliverd">deliverd</span></td>
+                                    </tr>
+                                                    
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!--New Users-->
+                    <div class="recentUsers">
+                        <div class="cardHeader">
+                            <h2>Recent User</h2>
+                        </div>
+                        <table>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="dash(1).jpeg"></div></td>
+                                <td><h4>George<br><span>India</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="dash(2).jpeg"></div></td>
+                                <td><h4>Maha<br><span>India</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="dash(3).jpeg"></div></td>
+                                <td><h4>Clinton<br><span>India</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="dash(4).jpeg"></div></td>
+                                <td><h4>Yokesh<br><span>India</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="dash(5).jpeg"></div></td>
+                                <td><h4>Anifa<br><span>India</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="dash(6).jpeg"></div></td>
+                                <td><h4>Aasifa<br><span>India</span></h4></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+
+
+            
+        </div>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script>
+            //MenuToggle
+            let toggle = document.querySelector('.toggle');
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+
+            toggle.onclick = function(){
+                navigation.classList.toggle('active');
+                main.classList.toggle('active');
+            }
+
+
+            // add hovered class in selected list item
+            let list = document.querySelectorAll('.navigation li');
+            function activelink(){
+                list.foreach((item) =>
+                item.classList.remove('hovered'));
+                this.classList.add('hovered');
+            }
+            list.foreach((item) =>
+            item.addEventListener('mouseover',activelink));
+        </script>
+    </body>
+</html>

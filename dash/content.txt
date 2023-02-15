@@ -1,0 +1,64 @@
+<!-- text content -->
+<!-- order details1 -->
+                <tr>
+                <td>Siva</td>
+                <td>Mohanraj</td>
+                <td>Tools are not working</td>
+                <td><span class="status pending">pending</span></td>
+                </tr>
+                 <tr>
+                <td>Ramki</td>
+                <td>Mohamed Aarif</td>
+                <td>Troubleshoot</td>
+                <td><span class="status deliverd">deliverd</span></td>
+                </tr>
+                <tr>
+                <td>Vaishalini</td>
+                <td>Gowthaman</td>
+                <td>Software updation</td>
+                <td><span class="status inprogress">In Progress</span></td>
+                </tr>
+                <tr>
+                <td>Priya</td>
+                <td>Vijay Kumar</td>
+                <td>Netowork is not connected</td>
+                <td><span class="status deliverd">deliverd</span></td>
+                </tr>
+                <tr>
+                <td>Sundaram</td>
+                <td>Gopalan</td>
+                <td>Required extra Ram</td>
+                <td><span class="status pending">pending</span></td>
+                </tr>
+                <tr>
+                <td>John</td>
+                <td>Unnikrishnan</td>
+                <td>Mailer part is not working</td>
+                <td><span class="status inprogress">in Progress</span></td>
+                </tr>
+                <tr>
+                <td>Preethi</td>
+                <td>Deva</td>
+                <td>Server is not connected</td>
+                <td><span class="status pending">pending</span></td>
+                </tr>
+                <tr>
+                <td>Hema Nandhini</td>
+                <td>Manjula</td>
+                <td>Need Mouse bluetooth device</td>
+                <td><span class="status inprogress">in Progress</span></td>
+                </tr>
+                <tr>
+                <td>Rosalin Pooja</td>
+                <td>Joshua</td>
+                <td>Boting Failure</td>
+                <td><span class="status deliverd">deliverd</span></td>
+                </tr>
+                <tr>
+                <td>Suriya</td>
+                <td>Indhumathi</td>
+                <td>windows is not running </td>
+                <td><span class="status deliverd">deliverd</span></td>
+                </tr>
+                
+                                     
